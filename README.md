@@ -67,9 +67,6 @@ Requires Docker.
 The `sql/` folder is mounted into the container as `/sql`, so the scripts can be run directly from psql.
 
 Alternatively, `bash run_lab.sh` runs all three scripts in one go.
-```
-
-`run_lab.sh` resets the database, creates the tables, loads the fake data and runs the test queries.
 
 ## Project structure
 
